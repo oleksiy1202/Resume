@@ -34,13 +34,17 @@ class Hello extends React.Component {
                     <ul className="skills">
                         <li>HTML5</li>
                         <li>CSS3</li>
-                        <li>Bootstrap <a target="#" href={work_1}>BOOTSTRAP</a>, <a target="#" href={work_2}>BOOTSTRAP_2</a>
-                        </li>
-                        <li>Materialize <a target="#" href={work_3}>Materialize</a>, <a target="#" href={work_4}>Materialize_2</a></li>
+                        <li>Bootstrap</li>
+                        <li>Materialize </li>
                         <li>JavaScript</li>
                         <li>Angular</li>
                         <li>jQuery</li>
                     </ul>
+                    <h2>МоЇ роботи</h2>
+                    <p>
+                        <a target="#" href={work_1}>BOOTSTRAP</a>, <a target="#" href={work_2}>BOOTSTRAP 2, </a>
+                        <a target="#" href={work_3}>Materialize</a>, <a target="#" href={work_4}>Materialize 2</a>
+                    </p>
                     <h2>Навчання</h2>
                     <p><strong>IT Step Academy lviv 2022-2023</strong><br />
                     </p>
