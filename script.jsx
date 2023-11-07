@@ -12,7 +12,9 @@ class Hello extends React.Component {
             <div>
                 <header>
                     <h1>{name_cv}</h1>
+                    <img src="./image/photo_2023-10-23_11-10-51.jpg" className="image_logo" alt="" />
                     <p>Front End Developer</p>
+                    {/* <img src="./image/photo_2023-10-23_11-10-51.jpg" className="image_logo" alt="" /> */}
                 </header>
 
                 <div className="container">
