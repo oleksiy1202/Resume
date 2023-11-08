@@ -1,7 +1,12 @@
+#root {
+    border: solid 1px white;
+    padding: 40px;
+}
+
 body {
     margin: 5%;
     font-family: cursive;
-    background-color: rgb(65, 75, 84);
+    background-color: rgb(44, 56, 66);
 }
 
 .image_logo {
@@ -17,7 +22,7 @@ body {
 
 header {
     height: 250px;
-    background-color: #3498db;
+    background-color: #1c6596;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -55,6 +60,18 @@ ul li {
     background-color: #3498db;
     color: #fff;
     padding: 10px;
+}
+
+a[target="_blank"] {
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+a[target="_blank"]:hover {
+    color: white;
+    font-size: large;
+    font-weight: bold;
 }
 
 

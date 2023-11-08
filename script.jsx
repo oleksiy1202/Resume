@@ -92,13 +92,13 @@ class Hello extends React.Component {
                     </span></li>
                 </ul>
                 <h2>Мої роботи</h2>
-                <p><a target="_blank" href={work_1}>Dashboard</a>,</p>
-                <p><a target="_blank" href={work_2}>Tour-qiude</a>,</p>
-                <p><a target="_blank" href={work_3}>EMPOWER YOUR BUSINESS</a>,</p>
+                <p><a target="_blank" href={work_1}>Dashboard</a></p>
+                <p><a target="_blank" href={work_2}>Tour-qiude</a></p>
+                <p><a target="_blank" href={work_3}>EMPOWER YOUR BUSINESS</a></p>
                 <p><a target="_blank" href={work_4}>Starter Template</a></p>
 
                 <h2>Навчання</h2>
-                <p><strong>IT Step Academy lviv 2022-2023</strong></p>
+                <p><a target="_blank" href="https://lviv.itstep.org/">IT Step Academy lviv</a> 2022-2023р.</p>
                 <div className="footer">
                     <p><a href={`mailto:${email}`}>{email}</a> | Телефон: <a href={`tel:+380${phone}`}>{phone}</a> | LinkedIn: <a target="_blank" href={linkedIn}>{name_cv}</a></p>
                 </div>
