@@ -1,14 +1,22 @@
 body {
     margin: 5%;
     font-family: cursive;
+    background-color: rgb(65, 75, 84);
 }
 
 .image_logo {
     width: 100px;
     border-radius: 50px;
+    transition-duration: 0.3s;
+}
+
+.image_logo:hover {
+    width: 120px;
+    border-radius: 70px;
 }
 
 header {
+    height: 250px;
     background-color: #3498db;
     color: #fff;
     text-align: center;
@@ -29,10 +37,6 @@ h2 {
     margin-top: 20px;
 }
 
-p {
-    font-size: 18px;
-}
-
 .skills {
     margin-top: 10px;
 }
@@ -51,4 +55,33 @@ ul li {
     background-color: #3498db;
     color: #fff;
     padding: 10px;
+}
+
+
+
+
+
+
+.rating {
+    font-size: 24px;
+}
+
+.rating .star {
+    color: gold;
+    cursor: pointer;
+}
+
+.rating .star_grey {
+    color: gray;
+    cursor: pointer;
+}
+
+.rating .star:hover {
+    color: gold;
+    font-weight: bold;
+}
+
+.rating .star_grey:hover {
+    color: gray;
+    font-weight: bold;
 }
