@@ -32,6 +32,7 @@ class Hello extends React.Component {
                         відданого розробника, готового навчатися та зростати, я готовий приєднатися до
                         Вашої команди.</p>
                 </div>
+
                 <h2>Навички</h2>
                 <ul className="skills">
                     <li>HTML5 <span className="rating">
@@ -76,6 +77,13 @@ class Hello extends React.Component {
                         <span className="star_grey">&#9733;</span>
                         <span className="star_grey">&#9733;</span>
                     </span></li>
+                    <li>React <span className="rating">
+                        <span className="star">&#9733;</span>
+                        <span className="star">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                    </span></li>
                     <li>jQuery <span className="rating">
                         <span className="star">&#9733;</span>
                         <span className="star">&#9733;</span>
@@ -91,6 +99,7 @@ class Hello extends React.Component {
                         <span className="star_grey">&#9733;</span>
                     </span></li>
                 </ul>
+                
                 <h2>Мої роботи</h2>
                 <p><a target="_blank" href={work_1}>Dashboard</a></p>
                 <p><a target="_blank" href={work_2}>Tour-qiude</a></p>
