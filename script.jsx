@@ -16,7 +16,7 @@ class Hello extends React.Component {
                     <p>Front End Developer</p>
                     <img src="./image/photo_2023-10-23_11-10-51.jpg" className="image_logo" alt="" />
                 </header>
-                <div className="container">
+                <div className="container color_style">
                     <h2>Про мене</h2>
                     <p>Junior Front-end розробник. Я — молодий розробник, який готовий розпочати свій
                         шлях в індустрії розробки програмного забезпечення.</p>
@@ -34,7 +34,7 @@ class Hello extends React.Component {
                 </div>
 
                 <h2>Навички</h2>
-                <ul className="skills">
+                <ul className="skills color_style">
                     <li>HTML5 <span className="rating">
                         <span className="star">&#9733;</span>
                         <span className="star">&#9733;</span>
@@ -99,7 +99,7 @@ class Hello extends React.Component {
                         <span className="star_grey">&#9733;</span>
                     </span></li>
                 </ul>
-                
+
                 <h2>Мої роботи</h2>
                 <p><a target="_blank" href={work_1}>Dashboard</a></p>
                 <p><a target="_blank" href={work_2}>Tour-qiude</a></p>
