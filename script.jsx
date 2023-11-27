@@ -1,13 +1,14 @@
 class Hello extends React.Component {
     render() {
-        let work_1 = 'https://oleksiy1202.github.io/EXAMEN_BOOTSTRAP/';
-        let work_2 = 'https://oleksiy1202.github.io/Examen_BOOTSTRAP_1/';
-        let work_3 = 'https://oleksiy1202.github.io/Hosting_EMPOWER-YOUR-BUSINESS/#';
-        let work_4 = 'https://oleksiy1202.github.io/Materialize_HTML/';
-        let email = 'kuzminov.oleksiy@gmail.com';
-        let phone = '0968668686';
-        let linkedIn = 'https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%BA%D1%83%D0%B7%D1%8C%D0%BC%D1%96%D0%BD%D0%BE%D0%B2-327a91290/';
-        let name_cv = 'Oleksiy Kuzminov';
+        let work_5 = 'https://oleksiy1202.github.io/vitalik_site/'
+        let work_1 = 'https://oleksiy1202.github.io/EXAMEN_BOOTSTRAP/'
+        let work_2 = 'https://oleksiy1202.github.io/Examen_BOOTSTRAP_1/'
+        let work_3 = 'https://oleksiy1202.github.io/Hosting_EMPOWER-YOUR-BUSINESS/#'
+        let work_4 = 'https://oleksiy1202.github.io/Materialize_HTML/'
+        let email = 'kuzminov.oleksiy@gmail.com'
+        let phone = '0968668686'
+        let linkedIn = 'https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%BA%D1%83%D0%B7%D1%8C%D0%BC%D1%96%D0%BD%D0%BE%D0%B2-327a91290/'
+        let name_cv = 'Oleksiy Kuzminov'
 
         return (
             <div>
@@ -101,6 +102,7 @@ class Hello extends React.Component {
                 </ul>
 
                 <h2>Мої роботи</h2>
+                <p><a target="_blank" href={work_5}>css site example</a></p>
                 <p><a target="_blank" href={work_1}>Dashboard</a></p>
                 <p><a target="_blank" href={work_2}>Tour-qiude</a></p>
                 <p><a target="_blank" href={work_3}>EMPOWER YOUR BUSINESS</a></p>
