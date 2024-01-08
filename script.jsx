@@ -1,6 +1,6 @@
 class Hello extends React.Component {
     render() {
-        let work_5 = 'https://oleksiy1202.github.io/vitalik_site/'
+        let work_5 = 'https://oleksiy1202.github.io/Facade-of-Lviv/'
         let work_1 = 'https://oleksiy1202.github.io/EXAMEN_BOOTSTRAP/'
         let work_2 = 'https://oleksiy1202.github.io/Examen_BOOTSTRAP_1/'
         let work_3 = 'https://oleksiy1202.github.io/Hosting_EMPOWER-YOUR-BUSINESS/#'
@@ -17,20 +17,15 @@ class Hello extends React.Component {
                     <p>Front End Developer</p>
                     <img src="./image/photo_2023-10-23_11-10-51.jpg" className="image_logo" alt="" />
                 </header>
+
                 <div className="container color_style">
                     <h2>Про мене</h2>
                     <p>Junior Front-end розробник. Я — молодий розробник, який готовий розпочати свій
                         шлях в індустрії розробки програмного забезпечення.</p>
-                    <p>Маю міцні знання в галузі
-                        Angular і фронтенд розробки. Готовий навчатися та рости як фахівець.</p>
-                    <p>Що я пропоную:</p>
-                    <p>Знання Angular та веб-розробки.
-                        Мету розвивати як програміста та приносити внесок в команду та проекти.
-                        Готовність працювати над власними проектами та завданнями під наглядом
-                        досвідчених колег.</p>
+                    <p>Люблю пізнавати нові галузі інформаційних технологій</p>
                     <p>Я з великим ентузіазмом шукаю можливість покращити свої навички та набути
-                        досвіду від професіоналів у галузі. Якщо Ваша компанія шукає пристрасного та
-                        відданого розробника, готового навчатися та зростати, я готовий приєднатися до
+                        досвіду від професіоналів у галузі. Якщо Ваша компанія шукає
+                        відданого розробника який готового навчатися та зростати, я готовий приєднатися до
                         Вашої команди.</p>
                 </div>
 
@@ -100,13 +95,27 @@ class Hello extends React.Component {
                         <span className="star_grey">&#9733;</span>
                     </span></li>
                 </ul>
-
-                <h2>Мої роботи</h2>
-                <p><a target="_blank" href={work_5}>css site example</a></p>
-                <p><a target="_blank" href={work_1}>Dashboard</a></p>
-                <p><a target="_blank" href={work_2}>Tour-qiude</a></p>
-                <p><a target="_blank" href={work_3}>EMPOWER YOUR BUSINESS</a></p>
-                <p><a target="_blank" href={work_4}>Starter Template</a></p>
+                <section class="skills-container">
+                    <h2>Мої роботи</h2>
+                    <h3>Всі роботи повністю адаптивні під будь-який пристрій</h3>
+                    <ul>
+                        <li>
+                            <p>Цей проєкт був розроблений на платформі React.js з використанням JSON: <a target="_blank" href={work_5}>Facade-of-Lviv</a></p>
+                        </li>
+                        <li>
+                            <p>Використано HTML/CSS з гіперпосиланнями: <a target="_blank" href={work_1}>Dashboard</a></p>
+                        </li>
+                        <li>
+                            <p>Працював з Bootstrap та здійснив адаптацію під телефон: <a target="_blank" href={work_2}>Tour-guide</a></p>
+                        </li>
+                        <li>
+                            <p>Проект розміщено на популярному хостингу в Україні: <a target="_blank" href={work_3}>EMPOWER YOUR BUSINESS</a></p>
+                        </li>
+                        <li>
+                            <p>Використовував бібліотеку Materialize у цьому проекті: <a target="_blank" href={work_4}>Starter Template</a></p>
+                        </li>
+                    </ul>
+                </section>
 
                 <h2>Навчання</h2>
                 <p><a target="_blank" href="https://lviv.itstep.org/">IT Step Academy lviv</a> 2022-2023р.</p>
