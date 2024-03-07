@@ -66,6 +66,13 @@ class Hello extends React.Component {
                         <span className="star_grey">&#9733;</span>
                         <span className="star_grey">&#9733;</span>
                     </span></li>
+                    <li>API <span className="rating">
+                        <span className="star">&#9733;</span>
+                        <span className="star">&#9733;</span>
+                        <span className="star">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                    </span></li>
                     <li>Angular <span className="rating">
                         <span className="star">&#9733;</span>
                         <span className="star">&#9733;</span>
@@ -76,7 +83,7 @@ class Hello extends React.Component {
                     <li>React <span className="rating">
                         <span className="star">&#9733;</span>
                         <span className="star">&#9733;</span>
-                        <span className="star_grey">&#9733;</span>
+                        <span className="star">&#9733;</span>
                         <span className="star_grey">&#9733;</span>
                         <span className="star_grey">&#9733;</span>
                     </span></li>
@@ -92,6 +99,20 @@ class Hello extends React.Component {
                         <span className="star">&#9733;</span>
                         <span className="star">&#9733;</span>
                         <span className="star">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                    </span></li>
+                    <li>MySQL <span className="rating">
+                        <span className="star">&#9733;</span>
+                        <span className="star">&#9733;</span>
+                        <span className="star">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                    </span></li>
+                    <li>PHP <span className="rating">
+                        <span className="star">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
+                        <span className="star_grey">&#9733;</span>
                         <span className="star_grey">&#9733;</span>
                     </span></li>
                 </ul>
@@ -119,9 +140,11 @@ class Hello extends React.Component {
 
                 <h2>Навчання</h2>
                 <p><a target="_blank" href="https://lviv.itstep.org/">IT Step Academy lviv</a> 2022-2023р.</p>
-                <div className="footer">
-                    <p><a href={`mailto:${email}`}>{email}</a> | Телефон: <a href={`tel:+380${phone}`}>{phone}</a> | LinkedIn: <a target="_blank" href={linkedIn}>{name_cv}</a></p>
-                </div>
+                <footer>
+                    <div className="footer">
+                        <p><a href={`mailto:${email}`}>{email}</a> | <a href={`tel:+380${phone}`}>Телефон: +380{phone}</a> | <a target="_blank" href={linkedIn}>LinkedIn: {name_cv}</a></p>
+                    </div>
+                </footer>
             </div>
         );
     }
