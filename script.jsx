@@ -1,10 +1,11 @@
 class Hello extends React.Component {
     render() {
-        let work_5 = 'https://oleksiy1202.github.io/Facade-of-Lviv/'
         let work_1 = 'https://oleksiy1202.github.io/EXAMEN_BOOTSTRAP/'
         let work_2 = 'https://oleksiy1202.github.io/Examen_BOOTSTRAP_1/'
         let work_3 = 'https://oleksiy1202.github.io/Hosting_EMPOWER-YOUR-BUSINESS/#'
         let work_4 = 'https://oleksiy1202.github.io/Materialize_HTML/'
+        let work_5 = 'https://oleksiy1202.github.io/Facade-of-Lviv/'
+        let work_6 = 'http://kayaksport.com.ua/#/'
         let email = 'kuzminov.oleksiy@gmail.com'
         let phone = '0968668686'
         let linkedIn = 'https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%BA%D1%83%D0%B7%D1%8C%D0%BC%D1%96%D0%BD%D0%BE%D0%B2-327a91290/'
@@ -120,6 +121,9 @@ class Hello extends React.Component {
                     <h2>Мої роботи</h2>
                     <h3>Всі роботи повністю адаптивні під будь-який пристрій</h3>
                     <ul>
+                        <li>
+                            <p>Проєкт Який я розробив на основі SPA додатку ANGULAR.io<a target="_blank" href={work_6}>kayaksport.com.ua</a></p>
+                        </li>
                         <li>
                             <p>Цей проєкт був розроблений на платформі React.js з використанням JSON: <a target="_blank" href={work_5}>Facade-of-Lviv</a></p>
                         </li>
