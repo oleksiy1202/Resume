@@ -6,6 +6,7 @@ class Hello extends React.Component {
         let work_4 = 'https://oleksiy1202.github.io/Materialize_HTML/'
         let work_5 = 'https://oleksiy1202.github.io/Facade-of-Lviv/'
         let work_6 = 'http://kayaksport.com.ua/#/'
+        let work_7 = 'https://oleksiy1202.github.io/Books/'
         let email = 'kuzminov.oleksiy@gmail.com'
         let phone = '0968668686'
         let linkedIn = 'https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%BA%D1%83%D0%B7%D1%8C%D0%BC%D1%96%D0%BD%D0%BE%D0%B2-327a91290/'
@@ -122,22 +123,25 @@ class Hello extends React.Component {
                     <h3>Всі роботи повністю адаптивні під будь-який пристрій</h3>
                     <ul>
                         <li>
-                            <p>Проєкт Який я розробив на основі SPA додатку ANGULAR.io<a target="_blank" href={work_6}>kayaksport.com.ua</a></p>
+                            <p>В цьому проєкті я використав jQuery<a target="_blank" href={work_7}> Books</a></p>
                         </li>
                         <li>
-                            <p>Цей проєкт був розроблений на платформі React.js з використанням JSON: <a target="_blank" href={work_5}>Facade-of-Lviv</a></p>
+                            <p>Проєкт Який я розробив на основі SPA додатку ANGULAR.io<a target="_blank" href={work_6}> kayaksport.com.ua</a></p>
                         </li>
                         <li>
-                            <p>Використано HTML/CSS з гіперпосиланнями: <a target="_blank" href={work_1}>Dashboard</a></p>
+                            <p>Цей проєкт був розроблений на платформі React.js з використанням JSON: <a target="_blank" href={work_5}> Facade-of-Lviv</a></p>
                         </li>
                         <li>
-                            <p>Працював з Bootstrap та здійснив адаптацію під телефон: <a target="_blank" href={work_2}>Tour-guide</a></p>
+                            <p>Використано HTML/CSS з гіперпосиланнями: <a target="_blank" href={work_1}> Dashboard</a></p>
                         </li>
                         <li>
-                            <p>Проект розміщено на популярному хостингу в Україні: <a target="_blank" href={work_3}>EMPOWER YOUR BUSINESS</a></p>
+                            <p>Працював з Bootstrap та здійснив адаптацію під телефон: <a target="_blank" href={work_2}> Tour-guide</a></p>
                         </li>
                         <li>
-                            <p>Використовував бібліотеку Materialize у цьому проекті: <a target="_blank" href={work_4}>Starter Template</a></p>
+                            <p>Проект розміщено на популярному хостингу в Україні: <a target="_blank" href={work_3}> EMPOWER YOUR BUSINESS</a></p>
+                        </li>
+                        <li>
+                            <p>Використовував бібліотеку Materialize у цьому проекті: <a target="_blank" href={work_4}> Starter Template</a></p>
                         </li>
                     </ul>
                 </section>
