@@ -7,6 +7,7 @@ class Hello extends React.Component {
         let work_5 = 'https://oleksiy1202.github.io/Facade-of-Lviv/'
         let work_6 = 'http://kayaksport.com.ua/#/'
         let work_7 = 'https://oleksiy1202.github.io/Books/'
+        let work_8 = 'https://oleksiy1202.github.io/Chat/'
         let email = 'kuzminov.oleksiy@gmail.com'
         let phone = '0968668686'
         let linkedIn = 'https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9-%D0%BA%D1%83%D0%B7%D1%8C%D0%BC%D1%96%D0%BD%D0%BE%D0%B2-327a91290/'
@@ -126,7 +127,10 @@ class Hello extends React.Component {
                             <p>В цьому проєкті я використав jQuery<a target="_blank" href={work_7}> Books</a></p>
                         </li>
                         <li>
-                            <p>Проєкт Який я розробив на основі SPA додатку ANGULAR.io<a target="_blank" href={work_6}> kayaksport.com.ua</a></p>
+                            <p>Проєкт Який я розробив на основі SPA додатку ANGULAR.io <a target="_blank" href={work_6}> kayaksport.com.ua</a></p>
+                        </li>
+                        <li>
+                            <p>Чат з використанням рандомного користувача та кольору для нього <a target="_blank" href={work_8}> Chat</a></p>
                         </li>
                         <li>
                             <p>Цей проєкт був розроблений на платформі React.js з використанням JSON: <a target="_blank" href={work_5}> Facade-of-Lviv</a></p>
