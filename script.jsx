@@ -126,9 +126,9 @@ class Hello extends React.Component {
                         <li>
                             <p>В цьому проєкті я використав jQuery<a target="_blank" href={work_7}> Books</a></p>
                         </li>
-                        <li>
+                        {/* <li>
                             <p>Проєкт Який я розробив на основі SPA додатку ANGULAR.io <a target="_blank" href={work_6}> kayaksport.com.ua</a></p>
-                        </li>
+                        </li> */}
                         <li>
                             <p>Чат з використанням рандомного користувача та кольору для нього <a target="_blank" href={work_8}> Chat</a></p>
                         </li>
